@@ -1,0 +1,44 @@
+# =========================
+# Robot Framework outputs
+# =========================
+output.xml
+log.html
+report.html
+*.png
+
+# Jos ajat logit omaan kansioon
+logs/
+results/
+output/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Selenium / Browser temp
+# =========================
+webdriver.log
+geckodriver.log
+chromedriver.log
+playwright/.cache/

@@ -1,9 +1,13 @@
 *** Variables ***
+${BASE_URL}    https://www.hsl.fi/
+${BROWSER}    chrome
 
-${hsl_logo}    xpath=//*[local-name()='svg']
-${btn_accept_coocies}    xpath=//*[@id="coiConsentBannerBase"]/div/div[1]/div[1]/button[1]
+${HSL_LOGO}    css=header
+${BTN_ACCEPT_COOKIES}    xpath=//button[contains(.,'Hyväksy')]
 
-${txt_fld_from}    origin
-${txt_fld_to}    destination
+${TXTFLD_FROM}    origin
+${TXTFLD_TO}    destination
 
+${ROUTE_RESULTS}    xpath=//*[contains(@class,"route") or contains(@class,"itinerary") or contains(@data-testid,"route")]
 
+${SUGGESTION_ITEMS}    xpath=//div[contains(@class,"suggestion-item")]
